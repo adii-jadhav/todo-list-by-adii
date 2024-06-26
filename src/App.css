@@ -1,0 +1,59 @@
+body{
+  background-color: #e1e8efd9;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.card .title span{
+  margin: 8px;
+  max-width: 95%;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #0030ff30;
+}
+.card{
+  border-top: 5px solid ;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+.card p{
+  font-family: sans-serif;
+}
+
+.header{
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c4e0fcaf;
+}
+
+
+
+.input-box{
+  background-color: rgba(0, 0, 0, 0.425);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  backdrop-filter: blur(7px);
+}
+
+.input-card{
+  width: 20rem;
+  height: 18rem;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:500px) {
+  .card{
+    margin:10px 0 0 0;
+    padding: 10px;
+  }
+  
+}
+.icon-box{
+  cursor: pointer;
+}
